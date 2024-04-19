@@ -1,6 +1,7 @@
 body,
 header {
     margin: 0px;
+    font-family: 'Roboto', sans-serif;
 }
 
 li,
@@ -16,19 +17,38 @@ a {
 
     display: flex;
     justify-content: center;
+    align-items: center;
 }
 
 .main-header-nav-list {
-    width: 980px;
+    width: 1024px;
     display: flex;
+    align-items: center;
     justify-content: space-between;
 }
 
 .main-header-nav-list * {
     color: #1d1d1f;
+    font-size: 17px;
 }
 
 .main-header-nav-list button {
     border: none;
     background-color: transparent;
+}
+
+.announcement-bar {
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #1d1d1f;
+    color: white;
+
+    height: 52.5781px;
+    font-size: 14px;
+}
+
+.announcement-bar a {
+    color: #2997ff;
 }
